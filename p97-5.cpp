@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
 if ((float)25 / (float)200 > (float)13 / (float)120) {
-		cout << "¤p¥]¸Ëªº¤ñ¸û«K©y";
+		cout << "å°åŒ…è£çš„æ¯”è¼ƒä¾¿å®œ";
 	}
 	else if ((float)25 / (float)200 < (float)13 / (float)120) {
-		cout << "¤j¥]¸Ëªº¤ñ¸û«K©y";
+		cout << "å¤§åŒ…è£çš„æ¯”è¼ƒä¾¿å®œ";
 	}
 	else if ((float)25 / (float)200 == (float)13 / (float)120) {
-		cout << "¤@¼Ë«K©y";
+		cout << "ä¸€æ¨£ä¾¿å®œ";
 	}
 	return 0;
 }
