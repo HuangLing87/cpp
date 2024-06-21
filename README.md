@@ -63,3 +63,14 @@
 標頭檔
 =======
 需儲存附檔名為.h，且在主程式中需#include "[標頭檔檔名].h"
+
+頭文件保護
+-------
+頭文件保護是通過預處理指令 #ifndef，#define，#endif 實現的，防止同一個頭文件被多次包含。
+
+		#ifndef HEADER_FILE_NAME_H
+		#define HEADER_FILE_NAME_H
+		
+		// 頭文件內容
+		
+		#endif // HEADER_FILE_NAME_H
