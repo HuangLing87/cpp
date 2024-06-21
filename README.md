@@ -25,6 +25,9 @@
 		int *end = arr + 5;     // end指向arr最後一個元素後的地址  
 		int size = end - arr;   // size = 5  
 
+矩陣
+=======
+
 矩陣-一維陣列
 -------
 
